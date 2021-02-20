@@ -1,0 +1,46 @@
+.masthead {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-right: 20px;
+    &__siteheader {
+        display: flex;
+        flex-direction: row; 
+        padding-left: 0;
+        justify-content: space-between;
+        margin-top: 20px;
+    &--heading-logo {
+        max-width: 60%;
+    }
+    &--button {
+        width: 95px;
+        height: 30px;
+        border: 2px solid #eca2d4;
+        color: #eca8e3;
+        border-radius: 25px;
+        margin-left: 2px;
+        background-color: white;
+    }
+    }
+    &__siteheadings {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-top: 35px;
+    &--header {
+        font-size: 26px;
+        text-transform: capitalize;
+    }
+    &--button{
+        background-color: #ec5292;
+        padding: 15px 50px;
+        border: none;
+        border-radius: 25px;
+        color: white;
+        font-size: 16px;
+        font-weight: 600;
+        margin-top: 20px;
+    }
+    }
+}
