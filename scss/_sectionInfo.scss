@@ -1,0 +1,27 @@
+.sectionInfo {
+    margin-right: 20px;
+    margin-left: 20px;
+    padding-top: 80px;
+    padding-bottom: 20px;
+    &__header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    &--community {
+        padding-top: 40px;
+    &-header {
+        font-weight: 700;
+        font-size: 24px;
+    }
+    &-paragraph {
+        color: grey;
+        font-size: 16px;
+    }
+    }
+    &--messages {
+        padding-top: 40px;
+    }
+    }
+}
+
